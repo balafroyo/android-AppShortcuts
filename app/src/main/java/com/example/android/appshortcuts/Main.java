@@ -240,8 +240,7 @@ public class Main extends ListActivity implements OnClickListener {
             final Button disable = (Button) view.findViewById(R.id.disable);
 
             disable.setText(
-                    shortcut.isEnabled() ? R.string.disable_shortcut : R.string.enable_shortcut);
-
+                    shortcut.isEnabled() ? R.string.disable_shortcut : R.string.enable_shortcut)
             remove.setOnClickListener(Main.this);
             disable.setOnClickListener(Main.this);
         }
