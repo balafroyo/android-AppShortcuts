@@ -241,6 +241,7 @@ public class Main extends ListActivity implements OnClickListener {
             disable.setText(shortcut.isEnabled() ? R.string.disable_shortcut : R.string.enable_shortcut);
             remove.setOnClickListener(Main.this);
             disable.setOnClickListener(Main.this);
+            system.out.println("new code checked in ");
         }
     }
 }
